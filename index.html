@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <style src="./js/index.js"></style>
+
+
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>spaceY</title>
+  </head>
+  <body>
+    <header> 
+      
+      <div class="topnav" id="myTopnav">
+        <img src="./image/space-logo.jpg" alt="logo" class="logo active " >
+       
+        <a href="#home" >Home</a>   <!--  class="active" -->
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+       
+        
+        <a href="#price">Price</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="home" id="home" >
+        <div class="row">
+          <div class="left">
+           <img src="./image/b1.png" alt="" >
+          </div>
+          <div class="right">
+          <h1>welcome</h1>
+          
+          <h3>this is our website demo page</h3>
+          <p> please check our  website for  details and  services</p>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="row">
+            <div class="left">
+              <h2>This page is about</h2>
+              <h4>booking your sapce ship  </h4>
+              <p>this website will full fill your dream to </p>
+              <p>travel in space with safety   </p>
+            </div>
+            <div class="right">
+              <img src="./image/a1.png" alt="" >
+            </div>
+          </div>
+      </section>
+      <section class="service" id="service">
+          <div class="row">
+          
+              <div class="card">
+                <img src="./image/s1.png" alt="">
+                <h4>Best service</h4>
+                <button class="s-button">book spaceship</button>              
+              </div>
+              <div class="card">
+                <img src="./image/s2.png" alt="">
+                <h4>Best service</h4>
+                <button class="s-button">book spaceship</button>
+              </div>
+              <div class="card">
+                <img src="./image/s3.png" alt="">
+                <h4>Best service</h4>
+                <button class="s-button">book spaceship</button>
+              </div>
+
+          
+          </div>
+       
+      </section>
+      <section class="price" id="price"> 
+        <div class="row">
+          <div class="card">
+            <img src="./image/p1.png" alt="">
+            <h4> ₹ 4 lakh </h4>
+            <button class="p-button">book now</button>
+          </div>
+          <div class="card">
+            <img src="./image/p2.png" alt=""> 
+            <h4>  ₹ 5 lakh</h4>
+            <button class="p-button">book now</button>
+          </div>
+          <div class="card">
+            <img src="./image/p3.png" alt="">
+            <h4> ₹ 7 lakh</h4>
+            <button class="p-button">book now</button>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="f1"> 
+        <img src="./image/space-logo.jpg" alt="logo" class="logo" style="width: 8rem; height: 8rem;">
+      <h3>
+        this is our space website 
+
+      </h3>
+      <h5>book your first trip in space </h5>
+      <h6>for more details contact us </h6>
+    </div>
+      <div class="f2">
+        <h3> follow us on</h3> 
+        <div class="f2-logo">
+        <p>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </p>
+        <p><i class="fa fa-instagram" aria-hidden="true"></i></p>
+        <p><i class="fa fa-youtube" aria-hidden="true"></i></p>
+        <p><i class="fa fa-linkedin" aria-hidden="true"></i></p>
+      </div>
+      </div>
+      <div class="f3">
+        <h3> contact us</h3>
+        <button class="f3-btn"><i class="fa fa-phone" aria-hidden="true" ></i>
+         <p> 000-000-0000</p>
+        </button>
+      </div>
+    
+    </footer>
+    <p style="background-color: black; color: antiquewhite; display: flex;  justify-content: center;">
+      this web page is design by &copy;Sahil raj 2022</p>
+  </body>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</html>
